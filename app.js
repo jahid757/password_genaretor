@@ -135,7 +135,7 @@ if(passwordLengthValue > 5){
         
         
         const singlePassword = document.createElement('span');
-        singlePassword.innerText = generatePassword + ',';
+        singlePassword.innerText = generatePassword + ', ';
         password.appendChild(singlePassword)
         
     
